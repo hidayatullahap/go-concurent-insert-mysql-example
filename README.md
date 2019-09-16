@@ -1,0 +1,1 @@
+# go-concurent-insert-mysql-example

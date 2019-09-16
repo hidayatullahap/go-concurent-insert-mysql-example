@@ -69,6 +69,7 @@ func main() {
 			}
 			dd.Key = i
 			wg.Add(1)
+			log.Println(i)
 			go Store(dd)
 		}
 		wg.Wait()
